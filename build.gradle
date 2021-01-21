@@ -19,6 +19,9 @@ dependencies {
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
     implementation 'io.quarkus:quarkus-config-yaml'
+
+    implementation 'org.projectlombok:lombok:1.18.16'
+    annotationProcessor "org.projectlombok:lombok:1.18.16"
 }
 
 group 'com.quarkus'

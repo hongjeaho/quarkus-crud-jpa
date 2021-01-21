@@ -1,0 +1,16 @@
+quarkus:
+  swagger-ui:
+    enable: true
+  datasource:
+    db-kind: h2
+    jdbc:
+      url: jdbc:h2:mem:userdb;MODE=MySQL;DB_CLOSE_DELAY=-1
+      max-size: 8
+      min-size: 2
+    username: sa
+    password:
+  hibernate-orm: #https://quarkus.io/guides/hibernate-orm#hibernate-configuration-properties
+    database:
+      generation: drop-and-create #none, create, drop-and-create, drop, update.
+    log:
+      sql: true
