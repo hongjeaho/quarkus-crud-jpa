@@ -2,7 +2,6 @@ package com.quarkus.service;
 
 import com.quarkus.entity.UserEntity;
 import com.quarkus.repository.UserRepository;
-import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
