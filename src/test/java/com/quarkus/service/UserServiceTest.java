@@ -4,11 +4,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import com.quarkus.entity.UserEntity;
+import io.quarkus.arc.profile.IfBuildProfile;
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @QuarkusTest
+@IfBuildProfile("test")
 class UserServiceTest {
 
   @Autowired
