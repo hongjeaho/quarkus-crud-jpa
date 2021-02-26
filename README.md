@@ -29,7 +29,7 @@ DATABASE가 정성적으로 설치가 되었다면 어플리케이션을 샐행�
 
 ## Graalvm 설치
 Quarkus를 Native로 실행 하기 위해서는 먼저 Graalvm을 이용한 native image로 컴파일을 해야 한다.
-Graalvm Community Edition 을 다운 받아서 설치 해자 자세한 설치 방법은  graalvm 홈페이지(https://www.graalvm.org/docs/getting-started/)을 참고 하면 된다.
+Graalvm Community Edition 을 다운 받아서 설치 해자 자세한 설치 방법은  graalvm 홈페이지(https://www.graalvm.org/docs/getting-started)을 참고 하면 된다.
 아래 명령어로 native-image를 설치 해보자
 
 ```shell script
