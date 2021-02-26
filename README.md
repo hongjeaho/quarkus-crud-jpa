@@ -1,6 +1,6 @@
 # QUARKUS에서 JPA를 사용해 보자 
 
-Quarkus 프로젝트는 https://code.quarkus.io 에서 쉽게 만들수 있었다. 
+Quarkus 프로젝트는 [https://code.quarkus.io](https://code.quarkus.io)에서 쉽게 만들수 있었다. 
 구성은 친숙한 Spring과 비슷하게 하기 위해서 Spring 지원 라이브러리를 추가 하였다.
 driver는 H2를 선택 하였고  설정을 yaml로 하기위해 YAML Configuration 추가 하였다.
 마지막으로 API 문서를 생성하기 위해서 SmallRye OpenAPI를 추가 하였다.
@@ -29,7 +29,7 @@ DATABASE가 정성적으로 설치가 되었다면 어플리케이션을 샐행�
 
 ## Graalvm 설치
 Quarkus를 Native로 실행 하기 위해서는 먼저 Graalvm을 이용한 native image로 컴파일을 해야 한다.
-Graalvm Community Edition 을 다운 받아서 설치 해자 자세한 설치 방법은  graalvm 홈페이지(https://www.graalvm.org/docs/getting-started)을 참고 하면 된다.
+Graalvm Community Edition 을 다운 받아서 설치 해자 자세한 설치 방법은  [graalvm 홈페이지](https://www.graalvm.org/docs/getting-started)을 참고 하면 된다.
 아래 명령어로 native-image를 설치 해보자
 
 ```shell script
